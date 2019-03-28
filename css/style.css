@@ -60,6 +60,15 @@ h5{
     float: right;
 }
 
+.cd-nav-container{
+    position: relative;
+}
+
+.cd-nav-icon{
+    position: absolute;
+    top: -30px;
+}
+
 /* Jumbotron */
 
 .jumbotron {
