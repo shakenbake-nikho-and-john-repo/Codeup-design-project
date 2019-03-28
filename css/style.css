@@ -41,6 +41,19 @@ h5{
     font-size:28px;
 }
 
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 600px;
+    border-bottom: 1px solid #666666;
+}
+
+.cd-links-height {
+    padding-top: 100px;
+
+}
+
 /* circles*/
 
 .cd-circ {
