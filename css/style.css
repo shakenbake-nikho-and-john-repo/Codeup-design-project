@@ -107,6 +107,9 @@ h5{
     display: inline-block;
     float: right;
 }
+.fa-twitter {
+   color: #00aced;
+}
 /* card images */
 
 .card-img-top {
