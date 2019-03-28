@@ -43,6 +43,12 @@ h5{
 
 /* Nav Bar */
 
+.cd-menu-items {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
 .cd-top-nav {
     background: #fff;
 }
