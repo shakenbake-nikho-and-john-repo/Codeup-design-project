@@ -54,6 +54,10 @@ h5{
 
 }
 
+.cd-project-title {
+    display: inline-block;
+}
+
 /* circles*/
 
 .cd-circ {
@@ -62,29 +66,50 @@ h5{
     border-radius: 50%;
     background-color: black;
     color: #fff;
+    border: 0.5em solid white;
 }
 
 .cd-design {
     background-color: var(--red-link);
-    border: 0.5em solid white;
+
 }
 
 .cd-develop {
     background-color: var(--or-link);
-    border: 0.5em solid white;
+
 }
 
 .cd-support {
 
     background-color: var(--green-link);
-    border: 0.5em solid white;
+
 }
 
 .cd-host {
     background-color: var(--blue-link);
-    border: 0.5em solid white;
+
 }
 
 .card-body {
     background-color: var(--bg-main);
+}
+
+.badge-pill,
+.cd-badges {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+.cd-badge-container {
+    display: inline-block;
+    float: right;
+}
+/* card images */
+
+.card-img-top {
+    border: 4px solid var(--bg-nav);
+    border-radius: 2px;
 }
