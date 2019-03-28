@@ -1,4 +1,73 @@
 * {
     font-family: 'Abel', sans-serif;
-;
+
+}
+
+:root {
+
+    --bg-main: #e6e6e6;
+    --bg-nav: #f0f0f0;
+    --blue-link: #00aba9;
+    --green-link: #7cb06c;
+    --or-link: #eb9d3a;
+    --red-link: #e6563b;
+}
+
+body, .jumbotron {
+    background-color: var(--bg-main);
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-family: 'anton', sans-serif;
+}
+
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48;
+}
+
+h3{
+    font-size:40px;
+}
+
+h4{
+    font-size:32px;
+}
+
+h5{
+    font-size:28px;
+}
+
+/* circles*/
+
+.cd-circ {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+}
+
+.cd-design {
+    background-color: var(--red-link);
+    border: 0.5em solid white;
+}
+
+.cd-develop {
+    background-color: var(--or-link);
+    border: 0.5em solid white;
+}
+
+.cd-support {
+
+    background-color: var(--green-link);
+    border: 0.5em solid white;
+}
+
+.cd-host {
+    background-color: var(--blue-link);
+    border: 0.5em solid white;
 }
