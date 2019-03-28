@@ -41,6 +41,24 @@ h5{
     font-size:28px;
 }
 
+/* Nav Bar */
+
+.cd-top-nav {
+    background: #fff;
+}
+
+.list-group,
+.navbar {
+    border: none;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.cd-nav-items {
+    float: right;
+}
 
 /* Jumbotron */
 
