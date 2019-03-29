@@ -91,13 +91,15 @@ h5{
     display: inline-block;
     position: absolute;
     top: -30px;
+    left: 132px;
 }
 
 /* Jumbotron */
 
 .jumbotron {
-    height: 600px;
+    height: 500px;
     border-bottom: 1px solid #666666;
+    border-radius: none;
 }
 
 .cd-links-height {
@@ -166,4 +168,10 @@ h5{
 .card-img-top {
     border: 4px solid var(--bg-nav);
     border-radius: 2px;
+    height: 175px;
 }
+
+.card-image {
+
+}
+
