@@ -197,3 +197,22 @@ a {
 .card {
     border: none;
 }
+
+
+@media (min-width: 576px) {
+
+    .cd-selected-works {
+        width: 100%;
+        height: auto;
+    }
+
+    .cd-featured-heading {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
+
+}
+
+
