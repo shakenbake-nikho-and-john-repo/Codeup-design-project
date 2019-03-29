@@ -43,6 +43,10 @@ h5{
 
 /* Nav Bar */
 
+.cd-nav-company-name {
+    display: inline-block;
+}
+
 .cd-menu-items {
     display: inline-block;
     list-style-type: none;
@@ -71,6 +75,7 @@ h5{
 }
 
 .cd-nav-icon{
+    display: inline-block;
     position: absolute;
     top: -30px;
 }
@@ -94,8 +99,8 @@ h5{
 /* circles*/
 
 .cd-circ {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: black;
     color: #fff;
