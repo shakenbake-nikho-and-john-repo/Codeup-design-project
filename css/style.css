@@ -99,7 +99,7 @@ h5{
 .jumbotron {
     height: 500px;
     border-bottom: 1px solid #666666;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .cd-links-height {
@@ -184,7 +184,9 @@ h5{
 .media img{
     width: 64px;
     height: 64px;
-
-
+    object-fit: cover;
 }
 
+.card {
+    border: none;
+}
