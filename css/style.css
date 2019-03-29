@@ -26,7 +26,7 @@ h1{
     font-size: 64px;
 }
 h2{
-    font-size: 48;
+    font-size: 48px;
 }
 
 h3{
@@ -46,6 +46,13 @@ h5{
 .cd-nav-company-name {
     display: inline-block;
     float: left;
+    color: #000;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+a {
+    color: #000;
 }
 
 .cd-menu-items {
@@ -97,7 +104,7 @@ h5{
 /* Jumbotron */
 
 .jumbotron {
-    height: 500px;
+    height: auto;
     border-bottom: 1px solid #666666;
     border-radius: 0;
 }
@@ -164,7 +171,7 @@ h5{
     height: 18px;
     width: 18px;
     color: #000;
-    font-weight: bold;
+    font-family: anton;
 }
 
 .cd-badge-container {
