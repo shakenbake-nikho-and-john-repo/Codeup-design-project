@@ -138,8 +138,6 @@ a {
 }
 
 
-
-
 .cd-design {
     background-color: var(--red-link);
 
@@ -199,7 +197,7 @@ a {
 }
 
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
     .cd-selected-works {
         width: 100%;
