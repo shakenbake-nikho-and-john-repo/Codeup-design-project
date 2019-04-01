@@ -287,6 +287,17 @@ a {
 /* medium devices*/
 @media (min-width: 768px) {
 
+    .cd-menu-right{
+        position: absolute;
+        right: 0px;
+    }
+
+    .cd-nav-icon {
+        left: 0px;
+
+    }
+
+
 }
 
 /* large devices*/
