@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-     <!--Bootstrap CSS -->
+    <!--Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -25,7 +25,7 @@
 
         <div class="container cd-nav-container">
 
-            <div class="cd-menu-left d-flex align-items-center justify-content-center">
+            <div class="col-6 cd-menu-left d-flex align-items-center justify-content-center">
                 <a class="navbar-brand" href="#">
                     <img class="cd-nav-icon" src="images/logo.png" alt="CD Logo" height="105px" width="105px">
                 </a>
@@ -34,7 +34,7 @@
                         class="sr-only">(current)</span></a>
             </div>
 
-            <div class="navbar-collapse cd-menu-right d-flex justify-content-end" id="navbarSupportedContent">
+            <div class="col-6 navbar-collapse cd-menu-right d-flex justify-content-end" id="navbarSupportedContent">
                 <ulv class="d-flex align-items-center cd-navlinks-sm">
                     <li class="cd-menu-items form-inline my-2 my-lg-0 cd-li-1">SERVICES</li>
                     <li class="cd-menu-items form-inline my-2 my-lg-0 cd-li-2">WORK</li>
@@ -63,32 +63,35 @@
                 </div>
             </div>
 
-            <div class="circle-menu d-flex justify-content-around">
+            <div class="cd-nav-circles circle-menu d-flex justify-content-around">
 
                 <div class="row cd-links-height p-5">
-                    <div class="col-lg-3 col-sm-6 col-6">
-                        <div class="cd-design cd-circ d-flex align-items-center justify-content-center">
+
+                    <div class="col-lg-3 col-sm-6 col-md-3">
+                        <div class="cd-design cd-circ-md cd-circ d-flex align-items-center justify-content-center">
                             <h5 class="cd-design-heading">design</h5>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-6">
-                        <div class="cd-develop cd-circ d-flex align-items-center justify-content-center">
+
+                    <div class="col-lg-3 col-sm-6 col-md-3">
+                        <div class="cd-develop cd-circ-md cd-circ d-flex align-items-center justify-content-center">
                             <h5 class="cd-develop-heading">develop</h5>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6 col-6">
-                        <div class="cd-support cd-circ d-flex align-items-center justify-content-center">
+                    <div class="col-lg-3 col-sm-6 col-md-3">
+                        <div class="cd-support cd-circ-md cd-circ d-flex align-items-center justify-content-center">
                             <h5 class="cd-support-heading">support</h5>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-6">
-                        <div class="cd-host cd-circ d-flex align-items-center justify-content-center">
+
+                    <div class="col-lg-3 col-sm-6 col-md-3">
+                        <div class="cd-host cd-circ-md cd-circ d-flex align-items-center justify-content-center">
                             <h5 class="cd-host-heading">host</h5>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
 
@@ -103,10 +106,10 @@
             </div>
             <div class="row">
 
-                    <!-- card 1 col 1-->
-                <div class="col-4 col-m-6 ">
+                <!-- card 1 col 1-->
+                <div class="col-4 col-md-4">
 
-                <div class="card cd-col-1-1" style="width: 18rem;">
+                    <div class="card cd-col-1-1">
                         <img src="images/macbook.jpg" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <p class="cd-project-title card-text text-uppercase float-left">featured project</p>
@@ -121,7 +124,7 @@
 
                     <!--card 2 col 1-->
 
-                    <div class="card d-none d-md-block" style="width: 18rem;">
+                    <div class="card d-none d-md-block">
                         <img src="images/man.jpg" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <p class="cd-project-title card-text text-uppercase float-left">featured project</p>
@@ -137,7 +140,7 @@
 
                 <div class="col-4 d-none d-md-block">
                     <!-- card 1 col 2-->
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" >
                         <img src="images/apple-ipad.jpg" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <p class="cd-project-title card-text text-uppercase float-left">featured project</p>
@@ -152,7 +155,7 @@
 
                     <!--card 2 col 2-->
 
-                    <div class="card d-none d-sm-block" style="width: 18rem;">
+                    <div class="card d-none d-sm-block" >
                         <img src="images/mobile-phone.jpg" class="card-img-top" alt="...">
                         <div class="card-body px-0">
                             <p class="cd-project-title card-text text-uppercase float-left">featured project</p>
@@ -169,24 +172,24 @@
                 <!-- end of cards -->
 
                 <!-- start aside -->
-                <div class="col-4 col-m-0 cd-aside d-none d-md-block">
+                <div class="col-4 col-m-3 cd-aside d-none d-md-block">
                     <ul class="list-unstyled">
                         <li class="media">
                             <img src="images/head.jpg" class="mr-3" alt="...">
                             <div class="media-body">
-                                <h5 class="mt-0 mb-1">The Admin bar and absolute positioning</h5>
+                                <h5 class="cd-media-title mt-0 mb-1">The Admin bar and absolute positioning</h5>
                             </div>
                         </li>
                         <li class="media my-4">
                             <img src="images/ipad.jpg" class="mr-3" alt="...">
                             <div class="media-body">
-                                <h5 class="mt-0 mb-1">Nibbler awesome website testing</h5>
+                                <h5 class="cd-media-title mt-0 mb-1">Nibbler awesome website testing</h5>
                             </div>
                         </li>
                         <li class="media">
                             <img src="images/google-search.jpg" class="mr-3" alt="...">
                             <div class="media-body">
-                                <h5 class="mt-0 mb-1">How to get Google to like you</h5>
+                                <h5 class="cd-media-title mt-0 mb-1">How to get Google to like you</h5>
                             </div>
                         </li>
                     </ul>
